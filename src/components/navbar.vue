@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbar__left">Igor Baggio</div>
     <div class="navbar__right">
-      <div class="navbar__right--sobre">Sobre | </div>
+      <div class="navbar__right--sobre">Sobre |</div>
       <div class="navbar__right--contato">Contato</div>
     </div>
   </div>
@@ -21,11 +21,16 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
-.navbar__right{
+
+.navbar__left {
+  margin-left: 20px;
+}
+.navbar__right {
+  margin-right: 20px;
   display: flex;
   justify-content: right;
 }
-.navbar__right--contato{
+.navbar__right--contato {
   padding-left: 4px;
 }
 </style>
